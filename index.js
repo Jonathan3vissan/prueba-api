@@ -1,7 +1,7 @@
 // index.mjs
 import express from 'express';
 import dotenv from 'dotenv';
-import usuariosRoutes from './routes/usuariosRoutes.js';
+import usuariosRoutes from './rutas/rutasUsuario.js';
 
 // Cargar las variables de entorno
 dotenv.config();

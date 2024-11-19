@@ -1,5 +1,5 @@
 // controllers/usuariosController.js
-import db from '../config/db.js';
+import db from '../configuracion/DB.js';
 
 // Obtener todos los usuarios
 export const getUsuarios = (req, res) => {
